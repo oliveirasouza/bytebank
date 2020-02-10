@@ -4,12 +4,12 @@ public class ClienteConta {
 
 	public static void main(String[] args) {
 
-		Conta contaDaMarcela = new Conta();
-		contaDaMarcela.titular = new Cliente();
+		Cliente cliente = new Cliente();
 		
-		contaDaMarcela.titular.nome="Marcela";
+		cliente.setTitular("Marcela");
 		
-		System.out.println(contaDaMarcela.titular.nome);
+		
+		System.out.println(cliente.getTitular());
 
 		
 		

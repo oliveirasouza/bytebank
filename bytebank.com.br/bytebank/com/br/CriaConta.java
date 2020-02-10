@@ -5,7 +5,7 @@ public class CriaConta {
 	public static void main(String[] args) {
 
 		
-		Conta primeiraConta = new Conta();
+		Conta primeiraConta = new Conta(1337,24226);
 		primeiraConta.getSaldo();
 		
 		System.out.println(primeiraConta.getSaldo());
